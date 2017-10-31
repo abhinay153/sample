@@ -2,5 +2,6 @@
 
 a = 12
 b = 2
-c = a + b
+d = 10
+c = a + b + d
 print c
