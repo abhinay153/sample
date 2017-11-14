@@ -1,0 +1,15 @@
+---
+- hosts: localhost
+#  sudo: true
+  
+  vars:
+    username: abhinay153
+    password: 153270b0
+  
+  tasks:
+  - name: git push
+    synchronize:
+      src: "/home/ansible/playbooks/nginx.yaml"
+      dest: "https://github.com/abhinay153/sample.git"
+      rsync_opts: --exclude=.DS_Store
+    when: mode is not defined or mode == "push"
