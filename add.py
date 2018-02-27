@@ -1,7 +1,6 @@
 #!/usr/bin/python
-a = 1
-b = 5 
+a = 3
+b = 7 
 c = a + b
 print c
-~
 
