@@ -4,7 +4,7 @@
   
   vars:
     username: abhinay153
-    password: 153270b0
+    password: XXXXX
   
   tasks:
   - name: git push
